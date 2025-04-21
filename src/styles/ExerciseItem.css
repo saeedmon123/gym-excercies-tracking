@@ -1,0 +1,56 @@
+.exercise-item {
+    background-color: #6f6e6e; /* Dark background */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+  
+  .exercise-name {
+    font-size: 1.5rem;
+    color: #ffffff; /* Light silver text for exercise name */
+    text-transform: uppercase; /* Makes the text all uppercase */
+  }
+  
+  
+  .exercise-weight {
+    font-size: 1.4rem;
+    margin: 10px 0;
+  }
+  
+  .exercise-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .exercise-button {
+    background-color: #192e35; /* Silver button */
+    color: #269fa5;
+    font-size: larger;
+    border: none;
+    padding: 8px 10px;
+    margin:5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .exercise-button:hover {
+    background-color: #275c8a; /* Slightly darker on hover */
+  }
+  
+  .exercise-delete {
+    background-color: #e74c3c; /* Red for delete */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ 
+  }
+  
+  .exercise-delete:hover {
+    background-color: #c0392b; /* Darker red for hover */
+  }
+  

@@ -1,0 +1,39 @@
+.exercise-form {
+    background-color: #1c1c1c; /* Dark background for gym feel */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+ 
+    margin: 20px auto;
+  }
+  
+  .exercise-input {
+    background-color: #333; /* Dark input fields */
+    color: white;
+    border: 1px solid #555; /* Silver border */
+    padding: 10px;
+    margin: 10px 0;
+    width: 99%;
+    border-radius: 4px;
+  }
+  
+  .exercise-input::placeholder {
+    color: #bbb; /* Lighter color for placeholder */
+  }
+  
+  .exercise-button {
+    background-color: #8a8a8a; /* Silver button */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .exercise-button:hover {
+    background-color: #666; /* Slightly darker on hover */
+  }
+  

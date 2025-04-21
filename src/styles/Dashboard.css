@@ -1,0 +1,49 @@
+/* Dashboard.css */
+.dashboard-container {
+  position: relative;
+  background-color: #121212;
+  color: white;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+.logout-button {
+  background-color: #e60000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 20px; /* Add this */
+  right: 20px; /* Add this */
+}
+
+.logout-button:hover {
+  background-color: #ff3333;
+}
+
+.dashboard-container h2 {
+  color: silver;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.day-section {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(192, 192, 192, 0.1);
+}
+
+.day-section h3 {
+  color: white;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid silver;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
